@@ -1,7 +1,18 @@
 aid: groundswell
 name: Groundswell
-description: Groundswell is a company surfaced as a portfolio company of felicis, gv and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Groundswell is a corporate social responsibility (CSR) platform that lets
+  companies run employee giving, volunteering, grants, employee assistance
+  funds, and corporate donor-advised funds from a single integrated system.
+  The platform provides instant donation matching and payroll giving, volunteer
+  event management and volunteer grants, AI-assisted grant application scoring
+  and workflow configuration, confidential employee assistance fund
+  applications with rapid funding, tax-efficient corporate DAFs, enterprise
+  impact reporting and analytics, and web plus mobile employee experiences.
+  Groundswell is backed by Felicis and GV and runs on AWS infrastructure with a
+  published trust center and SOC 2 Type I and Type II attestations. It was added
+  to the API Evangelist network as a portfolio-company lead; no public developer
+  portal, API, or specification is currently published by the company.
 url: https://raw.githubusercontent.com/api-evangelist/groundswell/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +21,32 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/658eb8aa7aa90abd234c74d5/65958960450faa72a206f813_logo.svg
 tags:
 - Company
+- Corporate Social Responsibility
+- Employee Giving
+- Volunteering
+- Grants Management
+- Donor-Advised Funds
+- Philanthropy
+- Employee Assistance
+- Nonprofit
+- HR Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +56,28 @@ maintainers:
 common:
 - type: Website
   url: https://groundswell.io
+- type: Pricing
+  url: https://groundswell.io/pricing
+- type: SignUp
+  url: https://groundswell.io/request-a-demo
+- type: Login
+  url: https://app.groundswell.io
+- type: TermsOfService
+  url: https://groundswell.io/terms
+- type: PrivacyPolicy
+  url: https://groundswell.io/privacy
+- type: Blog
+  url: https://groundswell.io/resources?category=All%20Posts
+- type: Support
+  url: https://helpcenter.groundswell.io/hc/en-us
+- type: TrustCenter
+  url: security/groundswell-trust-center.yml
+- type: Compliance
+  url: security/groundswell-trust-center.yml
+- type: DomainSecurity
+  url: security/groundswell-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
